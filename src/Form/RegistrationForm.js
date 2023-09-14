@@ -144,7 +144,7 @@ function RegistrationForm() {
     return (
         <div className='flex justify-center'>
 
-            <form onSubmit={handleSubmit} className=' min-w-[400px] mt-5 flex flex-col justify-center gap-y-1 align-middle'>
+            <form onSubmit={handleSubmit} className=' min-w-[400px] mt-5 flex flex-col justify-center gap-y-1 align-middle bg-slate-300 p-4 rounded-md'>
                 <h2 className='text-[24px]  mb-1'>Registration Form</h2>
 
                 <div className='min-h-[25px]'>
