@@ -39,7 +39,7 @@ function RegistrationForm() {
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
-                setError('Connecting with server failed , please try again')
+                setError('Please run Backend code first for this app to work')
             });
 
 
